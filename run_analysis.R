@@ -275,6 +275,12 @@ path <- ".\\data\\"
      tidySet <- dcast(finalSetMelt, 
                         SubjectPerson + ActivityName ~ variable,
                         mean)
+    
+     if (file.exists("tidySet.txt")) 
+           {
+              file.remove("tidySet.txt")
+           }
+
 
      write.table(tidySet,"tidySet.txt", row.names=FALSE)
 

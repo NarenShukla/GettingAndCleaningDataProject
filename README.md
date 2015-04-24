@@ -112,8 +112,12 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
            - 'subject_train.txt'
            - 'subject_test.txt'
 
+`Note that the "/data" folder on the github repository contains (X_train.zip) and (X_test.zip). You will need to un-zip them to get (X_train.txt) and (X_test.txt) files, after you download them to your PC`
+
 
 ### How to Process the Data
+
+- Make sure (X_train.txt) and (X_test.txt) are in un-zipped format in "/data" folder 
 
 - Once you have the above mentioned directory structure, execute the `run_analysis.R` file in "R Console"
 

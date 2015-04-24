@@ -17,10 +17,14 @@ It assumes that the Current Working directory has following structure present,
            - 'subject_train.txt'
            - 'subject_test.txt'
 
+`Note that the "/data" folder on the github repository contains (X_train.zip) and (X_test.zip). You will need to un-zip them to get (X_train.txt) and (X_test.txt) files, after you download them to your PC`
+
     - 'run_analysis.R': R script to process the data. 
 
 
 ### How to Process the Data
+
+- Make sure (X_train.txt) and (X_test.txt) are in un-zipped format in "/data" folder 
 
 - Once you have the above mentioned directory structure, execute the `run_analysis.R` file in "R Console"
 
