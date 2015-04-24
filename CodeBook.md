@@ -124,11 +124,11 @@ It assumes that the Current Working directory has following structure present,
 
 - Here's the description of those 68 columns,
 
-   - "SubjectPerson" :  Subject Person who carried out this experient. Value: (1:30), Type: Numeric
+   - "SubjectPerson" :  Subject Person who carried out this experiment. Value: (1:30), Type: Numeric
 
    - "ActivityName" :   Activity carried out by this person. Value:"Lay","Sit","Stand","Walk", "WalkDown", "WalkUp",  Type: Character
 
-`All below values are AVERAGES for "Subject Person" and
+`All below values are AVERAGES (MEAN) for "Subject Person" and
 "ActivityName", for each variable mentioned below. 
 Total Variables : 66. Each Variable Type : Numeric`
 
