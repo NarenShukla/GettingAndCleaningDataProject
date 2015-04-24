@@ -26,7 +26,7 @@ It assumes that the Current Working directory has following structure present,
 
 - Make sure (X_train.txt) and (X_test.txt) are in un-zipped format in "/data" folder 
 
-- Once you have the above mentioned directory structure, execute the `run_analysis.R` file in "R Console"
+- Once you have the above mentioned directory structure, execute the `run_analysis.R` file in "R Console". Make sure you "Change Dir..." in "R Console" to Current Working Directory, where "run_analysis.R" file is located
 
    > source "run_analysis.R"
 
