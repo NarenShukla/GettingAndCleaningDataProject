@@ -35,8 +35,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
     - `/data` directory :Contains data downloaded from above URL,
            - 'features.txt' 
-           - 'X_train.txt'
-           - 'X_test.txt'
+           - 'X_train.txt' (github folder contains zipped file)
+           - 'X_test.txt'  (github folder contains zipped file)
            - 'activity_labels.txt'
            - 'y_train.txt'
            - 'y_test.txt'
