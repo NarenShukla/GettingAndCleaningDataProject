@@ -1,6 +1,6 @@
 ### File Structure Used
 
-It assumes that the main directory has following structure present,
+It assumes that the Current Working directory has following structure present,
 
 - Current Working Directory : 
     - 'README.md': Explains various files. How they are connected
@@ -124,9 +124,9 @@ It assumes that the main directory has following structure present,
 
    - "ActivityName" :   Activity carried out by this person. Value:"Lay","Sit","Stand","Walk", "WalkDown", "WalkUp",  Type: Character
 
-** All below values are AVERAGES for "Subject Person" and
+`All below values are AVERAGES for "Subject Person" and
 "ActivityName", for each variable mentioned below. 
-Total Variables : 66. Each Variable Type : Numeric **
+Total Variables : 66. Each Variable Type : Numeric`
 
 
    - "MeanBodyAccSignalTimeX" : MEAN of Body Acceleration Time Domain X-axial Signal
