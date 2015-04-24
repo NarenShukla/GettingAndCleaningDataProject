@@ -167,6 +167,8 @@ path <- ".\\data\\"
 
 
 # Extract Mean and Standard Deviation fields from{combinedSet}
+# There are 33 Mean and 33 Standard Deviation fields extracted
+# `{meanFreq()} fields and {angle()} fields are NOT EXTRACTED`
 # Call it {finalSet}. It contains 10299 x 68
 
    meanColumns <- grep("\\-mean\\(\\)",names(combinedSet))

@@ -96,8 +96,7 @@ It assumes that the Current Working directory has following structure present,
 
 - Extract `Mean` and `Standard Deviation` fields. 
 
-   - Extract Mean and Standard Deviation fields from{combinedSet}
-     Call it {finalSet}. It contains 10299 rows x 68 columns.
+   - Extract Mean and Standard Deviation fields from{combinedSet}. There are 33 Mean and 33 Standard Deviation fields extracted. `{meanFreq()} fields and {angle()} fields are NOT EXTRACTED.` Call it {finalSet}. It contains 10299 rows x 68 columns.
 
    - Label {finalSet} with descriptive variable names. Activities 
      are already named with descriptive activity names
